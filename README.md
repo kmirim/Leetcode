@@ -2,8 +2,7 @@
 
 ### Para compilar: 
 - C: cc <nome_do_arquivo.c> -o main
-<br>
-<p> ./main "radar"
+  <p> Ex: ./main "radar"
 
 - Python: python3 <nome_do_arquivo.py> 
 
