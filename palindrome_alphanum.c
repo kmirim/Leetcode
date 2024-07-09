@@ -4,7 +4,7 @@
 
 int is_alphanum(char c)
 {
-  if ((c >= 'a' && c <='z')|| (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9'))
+  if ((c > 96 && c < 123)|| (c > 64 && c < 91) || (c >= '0' && c <= '9'))
     return (1);
  return(0);
 }
