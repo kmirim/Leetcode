@@ -11,11 +11,10 @@ int is_alphanum(char c)
 
 void to_lower(char *str)
 {
-  int i = 0;
-  while(str[i])
+  while(*str)
   {
-    str[i] = tolower(str[i]);
-    i++;
+    *str = tolower(*str);
+    str++;
   }
 }
 
