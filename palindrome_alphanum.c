@@ -1,20 +1,30 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int is_alphanum(char c)
 {
-  if (c >= 'a' && c <='z' || c >= 'A' && c <= 'Z' || c >= '0' && c <= '9')
+  if ((c >= 'a' && c <='z')|| (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9'))
     return (1);
  return(0);
 }
 
+void to_lower(char *str)
+{
+  int i = 0;
+  while(str[i])
+  {
+    str[i] = tolower(str[i]);
+    i++;
+  }
+}
+
 void is_palindrome(char *str)
 {
-  int i;
-  int j;
+  int i = 0;
+  int j = strlen((str) - 1);
+  to_lower(str);
 
-  i = 0;
-  j = strlen(str) - 1; 
   while(i < j)
   {
     while(i < j && !is_alphanum(str[i]))
