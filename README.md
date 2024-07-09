@@ -1,8 +1,8 @@
 # Leetcode
 
 ### Para compilar: 
-- C: cc <nome_do_arquivo.c> -0 main
-    ./main <valor_de_entrada>
+- C: cc <nome_do_arquivo.c> -o main
+<p> ./main <valor_de_entrada>
 
 - Python: python3 <nome_do_arquivo.py> 
 
