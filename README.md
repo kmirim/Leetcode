@@ -2,14 +2,15 @@
 
 ### Para compilar: 
 - C: cc <nome_do_arquivo.c> -o main
+<br>
 <p> ./main "radar"
-// É palindromo!
+<p> // É palindromo!
 <p> ./main "123"
-// Não é palindromo
+<p> </p>Não é palindromo
 <p> ./main "radar" "121"
-// É palindromo
-// É palindromo
-  
+<p> É palindromo
+<p> É palindromo
+
 - Python: python3 <nome_do_arquivo.py> 
 
 ### Desafio do fino: 
